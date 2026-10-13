@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Large trained model: regenerate with python src/train.py
+models/*.joblib
+
+# Generated predictions
+predictions_test.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings (optional)
+.vscode/
+# Ignore documentation files except README
+*.md
+!README.md

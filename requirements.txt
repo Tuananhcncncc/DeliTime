@@ -1,0 +1,10 @@
+# Các thư viện phụ thuộc cho đề tài Dự đoán thời gian giao đồ ăn (Food Delivery Time Prediction)
+# Sử dụng mô hình Machine Learning: Random Forest Regression
+
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+streamlit>=1.30.0
+matplotlib>=3.7.0
+seaborn>=0.12.0

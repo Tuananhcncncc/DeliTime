@@ -1,0 +1,116 @@
+{
+    "model_type": "RandomForestRegressor",
+    "n_estimators": 120,
+    "max_depth": 18,
+    "test_size": 0.2,
+    "random_state": 42,
+    "metrics": {
+        "validation_mae_minutes": 3.2717,
+        "validation_rmse_minutes": 4.1153,
+        "validation_r2_score": 0.8068,
+        "train_mae_minutes": 1.8699
+    },
+    "features": {
+        "numeric": [
+            "Delivery_person_Age",
+            "Delivery_person_Ratings",
+            "Vehicle_condition",
+            "multiple_deliveries",
+            "distance_km",
+            "order_hour",
+            "prep_time_min",
+            "day_of_week",
+            "is_weekend"
+        ],
+        "categorical": [
+            "Weatherconditions",
+            "Road_traffic_density",
+            "Type_of_order",
+            "Type_of_vehicle",
+            "Festival",
+            "City"
+        ],
+        "all": [
+            "Delivery_person_Age",
+            "Delivery_person_Ratings",
+            "Vehicle_condition",
+            "multiple_deliveries",
+            "distance_km",
+            "order_hour",
+            "prep_time_min",
+            "day_of_week",
+            "is_weekend",
+            "Weatherconditions",
+            "Road_traffic_density",
+            "Type_of_order",
+            "Type_of_vehicle",
+            "Festival",
+            "City"
+        ]
+    },
+    "top_features": [
+        [
+            "Delivery_person_Ratings",
+            0.2135213314802937
+        ],
+        [
+            "multiple_deliveries",
+            0.12610135876549522
+        ],
+        [
+            "distance_km",
+            0.12126933712031679
+        ],
+        [
+            "Road_traffic_density_Low",
+            0.10919770676983917
+        ],
+        [
+            "Delivery_person_Age",
+            0.09956046570024916
+        ],
+        [
+            "Vehicle_condition",
+            0.07026477673987916
+        ],
+        [
+            "Weatherconditions_Sunny",
+            0.06949726278645875
+        ],
+        [
+            "Weatherconditions_Cloudy",
+            0.042220922778838606
+        ],
+        [
+            "Weatherconditions_Fog",
+            0.04142681208370892
+        ],
+        [
+            "Road_traffic_density_Medium",
+            0.018609846514041836
+        ],
+        [
+            "day_of_week",
+            0.013858120844946758
+        ],
+        [
+            "order_hour",
+            0.012928190294903632
+        ],
+        [
+            "Festival_Yes",
+            0.006998526469522445
+        ],
+        [
+            "Festival_No",
+            0.006749444883679187
+        ],
+        [
+            "prep_time_min",
+            0.006666663155511368
+        ]
+    ],
+    "train_samples": 36474,
+    "validation_samples": 9119,
+    "training_time_seconds": 3.46
+}
